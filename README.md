@@ -37,7 +37,7 @@ uso: ./con [flags] [referencia...]
           Todos los puntos de un artículo que concuerden con la búsqueda
 ```
 
-## Build
+## Compilado e instalación
 
 Para compilar e instalar:
 
@@ -46,6 +46,19 @@ git clone https://github.com/inigogutierrez/con.git
 cd con
 sudo make install
 ```
+
+## Notas
+
+El proyecto original que inspiró `con`, [kjv](https://github.com/bontibon/kjv.git),
+se desarrolló para procesar una versión de la Biblia. El código original
+apenas ha sido editado, siendo cambiado casi únicamente el archivo que contiene
+el texto a procesar, ya que la idea original de este proyecto fue explorar las
+posibilidades del editor de texto `vim` sobre un ejemplo real. Es por esto que
+`con` no está realmente optimizado para el texto de la Constitución, pero se deja usar.
+
+El comando exacto para consultar el texto de un artículo, por ejemplo, el 155, sería:
+
+`con cuerpo 155`
 
 ## Licencia
 
